@@ -1,0 +1,127 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Template para o carousel Bootstrap</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+    <link href="css/carrosel.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="images/parque ramiro ruediger.jpg" alt="First slide" width="10%" height="10%">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Manchete</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img class="second-slide" src="images/vila-germanica.png" alt="Primeiro Slide" width="10%" height="10%">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Outra manchete</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="images/prefeitura3.0.jpg" alt="Third slide" width="10%" height="10%">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Outra manchete, pra garantir</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Voltar</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Avançar</span>
+        </a>
+      </div>
+
+
+      <h2>Sobre a cidade</h2>
+      <br>
+      <p>Blumenau, localizada no estado de Santa Catarina, Brasil, é uma cidade com uma rica tapeçaria de história, cultura e desenvolvimento. <br> Fundada em 1850 pelo imigrante alemão Hermann Blumenau, a cidade carrega consigo uma forte influência da cultura germânica, evidenciada em sua arquitetura, tradições e festividades.
+       
+        <br>
+       <h3> História e Fundador </h3>
+        Hermann Blumenau, ao desembarcar no Brasil, trouxe consigo a esperança de criar uma colônia que se assemelhasse às suas raízes na Alemanha Com a ajuda de outros imigrantes alemães, Blumenau começou a desbravar e cultivar a região, estabelecendo a cidade que hoje conhecemos. <br> Desde então, Blumenau desenvolveu-se com uma identidade única, preservando as tradições alemãs enquanto abraçava o progresso e a modernidade.</h3>
+        <br>
+       <h3> Desenvolvimento e Economia
+        A cidade é famosa por suas construções no estilo enxaimel, que remetem à arquitetura tradicional alemã. <br> Além disso, Blumenau se destaca pela sua economia diversificada, que vai desde a indústria têxtil até o setor de tecnologia. A economia local é também impulsionada pelo turismo, com visitantes atraídos pelas belezas naturais e pela rica herança cultural da cidade.</h3>
+        <br>
+       <h3> Cultura e Festividades
+        Blumenau é amplamente conhecida por sediar a Oktoberfest, um dos maiores e mais tradicionais festivais de cerveja da América Latina. <br> O evento, que celebra a cultura germânica, inclui desfiles, danças folclóricas e, claro, muita cerveja. A cidade também preserva outras tradições germânicas, como a culinária típica e festas populares, que ajudam a manter viva a herança cultural alemã.</h3>
+        <br>
+       <h3>Prefeito e Administração
+        A administração municipal é conduzida pelo prefeito, que é eleito a cada quatro anos. <br> O prefeito atual, até a última atualização das informações, é [nome do prefeito]. Ele desempenha um papel crucial no desenvolvimento da cidade, focando em melhorias na infraestrutura, educação e saúde. A gestão do prefeito também é responsável por implementar políticas públicas que visam promover o crescimento sustentável e a qualidade de vida dos cidadãos.</h3>
+        <br>
+       <h3>Qualidade de Vida
+        Blumenau é frequentemente destacada por sua alta qualidade de vida, oferecendo um bom equilíbrio entre a vida urbana e o contato com a natureza. <br> A cidade possui várias opções de lazer, como parques, museus e centros culturais. Além disso, as áreas residenciais são bem planejadas, proporcionando um ambiente seguro e agradável para os moradores.</h3>
+        <br>
+      <h3>Conclusão
+        Blumenau é uma cidade que honra suas origens enquanto olha para o futuro com otimismo. <br> Com uma rica herança cultural e um dinamismo econômico crescente, ela continua a atrair visitantes e a inspirar os moradores com seu charme único. A combinação de tradição e inovação faz de Blumenau um exemplo notável de como a história pode se entrelaçar com o desenvolvimento moderno, criando uma comunidade vibrante e acolhedora.</p></h3>
+     
